@@ -12524,4 +12524,5 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 });
 
 
-client.login('تــوكــن بــوتــك اهــنا');
+
+client.login(process.env.BOT_TOKEN);
